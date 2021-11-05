@@ -1,4 +1,6 @@
-Gas and Burner Hackerearth : Aman is Chemistry Lab Assistant, There are K burners in the lab and N gas cylinders for the fuel. Each cylinder has a different capacity. Now in each lab K students come to use the K burners. When lab starts all students connect their burner to a cylinder and start the burner. Students can change the cylinder in between themselves and with the cylinder which is idle, exchange takes negligible time. Now find the maximum time possible for which all K burners can burn simultaneously. Exchange can be done only in integral units not fractional. (you can exchange at 1 second or 2 seconds, not at 1.5 seconds).
+# Gas and Burner Hackerearth 
+
+Aman is Chemistry Lab Assistant, There are K burners in the lab and N gas cylinders for the fuel. Each cylinder has a different capacity. Now in each lab K students come to use the K burners. When lab starts all students connect their burner to a cylinder and start the burner. Students can change the cylinder in between themselves and with the cylinder which is idle, exchange takes negligible time. Now find the maximum time possible for which all K burners can burn simultaneously. Exchange can be done only in integral units not fractional. (you can exchange at 1 second or 2 seconds, not at 1.5 seconds).
 
 Constraints: N < 1e5 K < N X[i] < 1e9
 
