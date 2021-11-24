@@ -1,4 +1,4 @@
-A special palindrome is a palindrome of size  which contains at most  distinct characters such that any prefix of size between  and   is not a palindrome.
+/*A special palindrome is a palindrome of size  which contains at most  distinct characters such that any prefix of size between  and   is not a palindrome.
 
 You need to count the number of special palindromes.
 
@@ -9,8 +9,8 @@ If N = 3 and K = 3, possible special palindromes are aba, aca, bab, bcb, cac and
 
 
 You need to count the number of palindromes of size  and an alphabet of size  but any prefix that has a size in between  and   is not a palindrome.
+*/
 
-```
 #include<bits/stdc++.h>
 using namespace std;
 #define LL long long
@@ -32,4 +32,3 @@ int main()
     }
     cout<<dp[N]<<endl ; 
 }
-```
