@@ -1,0 +1,17 @@
+string trnsfrm(const string&f_str,int n_op)noexcept{
+    string res="";
+    int a=n_op-1,b=0;
+    while(b<=a){
+        res+=f_str[b++];
+        res+=f_str[a--];
+    }
+    if(res.length()>n_op)res.pop_back();
+    reverse(res.begin(),res.end());
+    for(int i=n_op;i<f_str.length();i++)res+=f_str[i];
+    return res;
+}
+
+int main(void){
+    cout<<trnsfrm("bbaaaba",5)<<"\n";
+    return 0;
+}
